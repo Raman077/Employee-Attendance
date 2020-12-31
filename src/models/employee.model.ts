@@ -13,7 +13,7 @@ export class Employee extends Entity {
     type: 'string',
     required: true,
   })
-  raman: string;
+  name: string;
 
   @property({
     type: 'number',
